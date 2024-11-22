@@ -102,8 +102,10 @@ export default function Cars() {
   };
 
   return (
-    <div className="cars-section">
-      <h2 style={{ color: '#5E67B6', textAlign: 'center', fontWeight: 'bold', fontSize: '2.5rem', marginBottom: '2rem', marginTop: '4rem' }}>MEDSAF CAR Fleet</h2>
+    <section id="cars" className="cars-section py-16">
+      <h2 style={{ color: '#5E67B6', textAlign: 'center', fontWeight: 'bold', fontSize: '2.5rem', marginBottom: '2rem' }}>
+        MEDSAF CAR Fleet
+      </h2>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
           Découvrez notre sélection variée de véhicules pour tous vos besoins. De la citadine économique au SUV luxueux,
@@ -155,6 +157,6 @@ export default function Cars() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

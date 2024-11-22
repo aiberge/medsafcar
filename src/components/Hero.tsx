@@ -89,7 +89,17 @@ export default function Hero() {
           </p>
           <a
             href="#cars"
-            className="inline-block bg-[#5E67B6] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#432F25] transition-colors"
+            className="inline-block bg-[#5E67B6] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#432F25] transition-colors cursor-pointer"
+            onClick={(e) => {
+              e.preventDefault();
+              const carsSection = document.querySelector('.cars-section');
+              if (carsSection) {
+                carsSection.scrollIntoView({ 
+                  behavior: 'smooth',
+                  block: 'start'
+                });
+              }
+            }}
           >
             Voir les voitures disponibles
           </a>
