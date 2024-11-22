@@ -79,8 +79,8 @@ export default function Hero() {
       </nav>
       
       {/* Hero Content */}
-      <div className="relative z-10 flex items-center justify-center min-h-screen">
-        <div className="text-center px-4 mt-16">
+      <div className="relative z-10 flex items-center justify-center min-h-[80vh]">
+        <div className="text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Bienvenue chez <span className="italic text-[#5E67B6]">MEDSAF CAR</span>
           </h1>
